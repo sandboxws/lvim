@@ -2,7 +2,7 @@
 lvim.lsp.diagnostics.virtual_text = false
 lvim.log.level = "debug"
 -- lvim.lsp.override = { "java" }
-require("user.json_schemas").setup()
+-- require("user.json_schemas").setup()
 
 local nvim_lsp = require("lspconfig")
 

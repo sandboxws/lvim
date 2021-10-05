@@ -19,10 +19,10 @@ lvim.plugins = {
   {"vv9k/vim-github-dark"},
   {"bluz71/vim-nightfly-guicolors"},
   {"yashguptaz/calvera-dark.nvim"},
-  {
-    'frenzyexists/aquarium-vim',
-    branch = 'vimscript_version'
-  },
+  -- {
+  --   'frenzyexists/aquarium-vim',
+  --   branch = 'vimscript_version'
+  -- },
 
   -- Frontend
   {"mhartington/formatter.nvim"},
@@ -34,12 +34,12 @@ lvim.plugins = {
   },
 
   -- Editing
-  {
-    "jose-elias-alvarez/null-ls.nvim",
-    config = function()
-      require("user.null-ls").setup()
-    end
-  },
+  -- {
+  --   "jose-elias-alvarez/null-ls.nvim",
+  --   config = function()
+  --     require("user.null-ls").setup()
+  --   end
+  -- },
   {
     "JoosepAlviste/nvim-ts-context-commentstring",
     config = function()
@@ -75,13 +75,13 @@ lvim.plugins = {
 
   -- Productivity
   {"kosayoda/nvim-lightbulb"},
-  {
-    "sidebar-nvim/sidebar.nvim",
-    rocks = {'luatz'},
-    config = function()
-      require("user.sidebar").config()
-    end
-  },
+  -- {
+  --   "sidebar-nvim/sidebar.nvim",
+  --   rocks = {'luatz'},
+  --   config = function()
+  --     require("user.sidebar").config()
+  --   end
+  -- },
   {"MunifTanjim/nui.nvim"},
   {"voldikss/vim-floaterm"},
   {"ellisonleao/glow.nvim"},
